@@ -192,6 +192,51 @@ body {
     color: #ffffff; /* Keep text color white */
 }
 
+/* Contact button*/
+.contact {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.contact-text {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    line-height: 1.8;
+}
+
+/* Button styles */
+.contact-btn {
+    display: inline-block;
+    background: linear-gradient(to right,  #0056b3, #8e01ab); /* Blue to light blue gradient */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px; /* Rounded edges */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); /* Raised effect */
+    font-weight: bold;
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.contact-btn:hover {
+    background: linear-gradient(to top, #007BFF, #00BFFF); /* Darker gradient on hover */
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5); /* Enhanced shadow on hover */
+    color: #ffffff; /* Keep text color white */
+}
+
+
 
 /* Other styles remain unchanged */
 
@@ -269,12 +314,12 @@ body {
     line-height: 40px;
     transition: background-color 0.3s ease;
 }
-
+/*
 .social-icons li a:hover {
     width: 40px;
     height: 40px;
 }
-
+*/
 .copyright {
     margin-top: 20px;
     font-size: 0.8rem;
