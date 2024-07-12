@@ -104,6 +104,95 @@ body {
     line-height: 1.8;
 }
 
+
+/* poetry section */
+.poetry {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.poetry-title {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.poetry-text {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    line-height: 1.8;
+}
+.poetry-btn {
+    min-width: 90px;
+    display: inline-block;
+    background: linear-gradient(to right, #00ff15ac, #4aff93); /* Blue to light blue gradient */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px; /* Rounded edges */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); /* Raised effect */
+    font-weight: bold;
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+.poetry-btn:hover {
+    background: linear-gradient(to top, #00ff15, #0099cc); /* Darker gradient on hover */
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5); /* Enhanced shadow on hover */
+    color: #ffffff; /* Keep text color white */
+}
+
+
+
+
+/* Game section */
+.game {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.game-title {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.game-text {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    line-height: 1.8;
+}
+.game-btn {
+    display: inline-block;
+    background: linear-gradient(to right, #007BFF, #00BFFF); /* Blue to light blue gradient */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px; /* Rounded edges */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); /* Raised effect */
+    font-weight: bold;
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.game-btn:hover {
+    background: linear-gradient(to top, #0056b3, #8e01ab); /* Darker gradient on hover */
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5); /* Enhanced shadow on hover */
+    color: #ffffff; /* Keep text color white */
+}
+
+
 /* Other styles remain unchanged */
 
 /* Button styles */
@@ -175,7 +264,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #111;
     text-align: center;
     line-height: 40px;
     transition: background-color 0.3s ease;
