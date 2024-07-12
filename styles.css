@@ -1,0 +1,192 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background-color: #111;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navigation ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    color: #33ff99;
+}
+
+/* Gradient Line */
+.gradient-line {
+    position: fixed;
+    top: 70px; /* Adjust according to header height */
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, transparent, #ff00ff, transparent);
+    animation: gradient-line-animation 2s ease-out forwards;
+    z-index: 999;
+}
+
+@keyframes gradient-line-animation {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Hero section */
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    line-height: 1.8;
+}
+
+/* Other styles remain unchanged */
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    background: linear-gradient(to right, #007BFF, #00BFFF); /* Blue to light blue gradient */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px; /* Rounded edges */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); /* Raised effect */
+    font-weight: bold;
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.btn:hover {
+    background: linear-gradient(to top, #0056b3, #0099cc); /* Darker gradient on hover */
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5); /* Enhanced shadow on hover */
+    color: #ffffff; /* Keep text color white */
+}
+
+/* Other styles remain unchanged */
+
+
+/* Sections */
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-text {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.services-list {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.services-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    padding: 50px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.social-icons {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons li a:hover {
+    background-color: #ffcc00;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
