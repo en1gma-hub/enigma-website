@@ -40,7 +40,7 @@ body {
 }
 
 .logo:hover {
-    animation: scaredWarp 0.5s ease forwards, runLeft 1s 0.5s ease forwards;
+    animation: scaredWarp 0.5s ease forwards, runLeft 1s 0.5s ease forwards, peek 1s 1.5s ease forwards;
 }
 
 @keyframes scaredWarp {
@@ -58,6 +58,18 @@ body {
 @keyframes runLeft {
     0% {
         transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+@keyframes peek {
+    0% {
+        transform: translateX(-100vw);
+    }
+    50% {
+        transform: translateX(-90vw);
     }
     100% {
         transform: translateX(-100vw);
@@ -248,7 +260,7 @@ body {
 /* Button styles */
 .contact-btn {
     display: inline-block;
-    background: linear-gradient(to right, #0056b3, #8e01ab); /* Blue to light blue gradient */
+    background: linear-gradient(to right, #0056b3, #8e01ab); /* pink?  #ff00ff, #FF69B4*/
     color: #ffffff; /* Text color */
     padding: 10px 20px;
     text-decoration: none;
