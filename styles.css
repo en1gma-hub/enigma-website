@@ -358,3 +358,26 @@ body {
     margin-top: 20px;
     font-size: 0.8rem;
 }
+
+
+/* Philosophy */
+
+
+.philosophy-btn {
+    min-width: 90px;
+    display: inline-block;
+    background: linear-gradient(to right, #00ff15ac, #4aff93); /* Blue to light blue gradient */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px; /* Rounded edges */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); /* Raised effect */
+    font-weight: bold;
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.philosophy-btn:hover {
+    background: linear-gradient(to top, #00ff15, #0099cc); /* Darker gradient on hover */
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5); /* Enhanced shadow on hover */
+    color: #ffffff; /* Keep text color white */
+}
